@@ -1,0 +1,26 @@
+{
+    "name": "bauhaus",
+    "displayName": "bauhaus",
+    "description": "Bauhaus inspired color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bauhaus Light",
+                "uiTheme": "vs",
+                "path": "./themes/Bauhaus-light-color-theme.json"
+            },
+            {
+                "label": "Bauhaus Dark",
+                "uiTheme": "vs",
+                "path": "./themes/Bauhaus-dark-color-theme.json"
+            }
+        ]
+    }
+}
